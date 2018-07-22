@@ -1,0 +1,11 @@
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\bin\Debug\netcoreapp2.0\tcplistener.deps.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\bin\Debug\netcoreapp2.0\tcplistener.runtimeconfig.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\bin\Debug\netcoreapp2.0\tcplistener.runtimeconfig.dev.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\bin\Debug\netcoreapp2.0\tcplistener.dll
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\bin\Debug\netcoreapp2.0\tcplistener.pdb
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.csproj.CoreCompileInputs.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.AssemblyInfoInputs.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.AssemblyInfo.cs
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.dll
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.pdb
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\tcplistener\obj\Debug\netcoreapp2.0\tcplistener.csprojResolveAssemblyReference.cache
