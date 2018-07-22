@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1A22204-A3F6-4154-841D-CB5212CDE4EF}</ProjectGuid>
+    <ProjectGuid>{78CB22B2-A7FC-4B47-BD62-EFEBD6873AAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>rc4</RootNamespace>
-    <AssemblyName>rc4</AssemblyName>
+    <RootNamespace>base64</RootNamespace>
+    <AssemblyName>base64</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
