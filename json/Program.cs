@@ -11,7 +11,7 @@ namespace json
     {
         static void Main(string[] args)
         {
-            Obj2Json();
+            Json2Obj();
             Console.ReadKey();
         }
         static public void Obj2Json() {
@@ -20,6 +20,12 @@ namespace json
             p.Price = 80;
             var str = JsonConvert.SerializeObject(p);
             Console.WriteLine(str);
+        }
+        static public void Json2Obj()
+        {
+            var str = @"{'name':'apple','price':500 }";
+            var p = JsonConvert.DeserializeObject<Product>(str);
+            Console.WriteLine($"name = {p.Name}, price = {p.Price}");
         }
     }
     class Product {

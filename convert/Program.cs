@@ -6,8 +6,13 @@ namespace convert
     {
         static void Main(string[] args)
         {
-            String2Bytes();
+            Byte2String();
             Console.ReadKey();
+        }
+        public static void Byte2String() {
+            byte b = 55;
+            var str = b.ToString("X2");
+            Console.WriteLine(str);
         }
         public static void Bytes2String() {
             byte[] byteArray = new byte[] {88 };
