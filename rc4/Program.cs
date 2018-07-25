@@ -13,7 +13,9 @@ namespace rc4
             Encoding encoding = Encoding.UTF8;
             var bytes = RC4.Encrypt("中", "f63dfeafe6bd2f74fedcf754c89d25ad", encoding);
             //Console.WriteLine("hahahahahah");
-            Console.Write(Convert.ToBase64String(bytes));
+            Console.WriteLine(Convert.ToBase64String(bytes));
+            bytes = RC4.Encrypt(bytes, "f63dfeafe6bd2f74fedcf754c89d25ad", encoding);
+            Console.WriteLine(Encoding.UTF8.GetString(bytes));
             Console.ReadKey();
         }
     }

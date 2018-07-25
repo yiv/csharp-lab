@@ -64,7 +64,8 @@ namespace http
             Console.WriteLine(Convert.ToBase64String(bytes));
             var request = new HttpRequestMessage
             {
-                RequestUri = new Uri("http://frontapi.poker666.in/device/v1/getDeviceID"),
+                //RequestUri = new Uri("http://frontapi.poker666.in/device/v1/getDeviceID"),
+                RequestUri = new Uri("http://192.168.1.51:10070/device/v1/getDeviceID"),
                 Method = HttpMethod.Post,
                 Headers = {
                     { HttpRequestHeader.ContentType.ToString(), "text/plain" },
@@ -73,9 +74,15 @@ namespace http
             };
             HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.SendAsync(request);
-            string responseBodyAsText = await response.Content.ReadAsStringAsync();
-            var res = RC4.Encrypt(responseBodyAsText, "f63dfeafe6bd2f74fedcf754c89d25ad", encoding);
-            Console.WriteLine(responseBodyAsText);
+            var responseBodyAsText = await response.Content.ReadAsStringAsync();
+            var responseBodyAsBytes = await response.Content.ReadAsByteArrayAsync();
+            //Console.WriteLine(responseBodyAsText);
+            Console.WriteLine(Convert.ToBase64String(responseBodyAsBytes));
+            Console.WriteLine(Encoding.UTF8.GetString(responseBodyAsBytes));
+            var res = RC4.Encrypt(responseBodyAsBytes, "f63dfeafe6bd2f74fedcf754c89d25ad", encoding);
+            Console.WriteLine();
+            //Console.WriteLine(Convert.ToBase64String(res));
+            Console.WriteLine(Encoding.UTF8.GetString(res));
         }
     }
     public class RC4
