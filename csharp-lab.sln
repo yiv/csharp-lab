@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongWebSocketsConnection", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{93BFE028-4A80-4D45-84B7-CE5E6BC20EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf", "protobuf\protobuf.csproj", "{C81018A7-2C31-4481-87FB-9FF59F8C73F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{93BFE028-4A80-4D45-84B7-CE5E6BC20EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93BFE028-4A80-4D45-84B7-CE5E6BC20EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93BFE028-4A80-4D45-84B7-CE5E6BC20EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

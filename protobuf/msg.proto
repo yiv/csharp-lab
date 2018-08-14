@@ -1,0 +1,64 @@
+syntax = "proto3";
+package msgpb;
+
+
+message LoginReq {
+    //登陆令牌
+    string token = 1;
+}
+message LoginRes {
+    int32 code = 1;
+}
+
+message HeartBeatReq {
+}
+
+message HeartBeatRes {
+    int32 code = 1;
+    int64 mtime = 2;
+}
+
+message ConnectReq {
+    int64 uid = 1;
+}
+message ConnectRes {
+    int32 code = 1;
+    repeated int64 friends = 2;
+}
+
+message MessageReq {
+    int64 dst = 1;
+    int32 msgtype = 2;
+    string content = 3;
+}
+message MessageRes {
+    int32 code = 1;
+}
+message InformMessage {
+    int32 msgtype = 1; //消息类型
+    int64 src = 2; //玩家UID
+    string nick = 3; //玩家昵称
+    int32 level = 4; //玩家等级
+    int32 viptype = 5; //玩家VIP类型
+    string content = 6; //消息内容
+    int64 ctime = 7; //消息时间
+    int64 character = 8; // 玩家角色
+    string avatar = 9; //玩家头像
+    int32 viplevel = 10; //玩家VIP等级
+}
+
+message InformTransfer {
+    int64 src = 1;
+    string nick = 2;
+    int64 amt = 3;
+}
+
+message InformSysBroadcast {
+    int32 msgtype = 1;
+    int64 uid = 2;
+    string nick = 3;
+    int32 online = 4;
+    int64 coin = 5;
+    string content = 14;
+    int64 ctime = 15;
+}
