@@ -1,0 +1,7 @@
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\bin\Debug\types.exe.config
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\bin\Debug\types.exe
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\bin\Debug\types.pdb
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\obj\Debug\types.csprojResolveAssemblyReference.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\obj\Debug\types.csproj.CoreCompileInputs.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\obj\Debug\types.exe
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\types\obj\Debug\types.pdb

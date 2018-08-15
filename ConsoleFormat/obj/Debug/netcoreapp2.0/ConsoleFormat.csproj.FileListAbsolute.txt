@@ -1,0 +1,10 @@
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\bin\Debug\netcoreapp2.0\ConsoleFormat.deps.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\bin\Debug\netcoreapp2.0\ConsoleFormat.runtimeconfig.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\bin\Debug\netcoreapp2.0\ConsoleFormat.runtimeconfig.dev.json
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\bin\Debug\netcoreapp2.0\ConsoleFormat.dll
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\bin\Debug\netcoreapp2.0\ConsoleFormat.pdb
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\obj\Debug\netcoreapp2.0\ConsoleFormat.csproj.CoreCompileInputs.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\obj\Debug\netcoreapp2.0\ConsoleFormat.AssemblyInfoInputs.cache
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\obj\Debug\netcoreapp2.0\ConsoleFormat.AssemblyInfo.cs
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\obj\Debug\netcoreapp2.0\ConsoleFormat.dll
+D:\Program\codes\go\src\github.com\yiv\csharp-lab\ConsoleFormat\obj\Debug\netcoreapp2.0\ConsoleFormat.pdb

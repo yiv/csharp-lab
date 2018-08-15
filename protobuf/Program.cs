@@ -23,6 +23,8 @@ namespace protobuf
             }
             string str = connectReq.ToString();
 
+            Console.WriteLine("edwin #32 {0}", str);
+
             foreach (var i in bytes) {
                 Console.WriteLine(i);
             }

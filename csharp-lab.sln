@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file", "file\file.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convert", "convert\convert.csproj", "{5B622ED8-CAFB-4505-AF1C-4B9EB63EBCD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "types", "types\types.csproj", "{DD3B8867-BFA4-4E29-B0E0-99FEEDA7D4F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bytes", "types\Bytes.csproj", "{DD3B8867-BFA4-4E29-B0E0-99FEEDA7D4F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base64", "base64\base64.csproj", "{78CB22B2-A7FC-4B47-BD62-EFEBD6873AAB}"
 EndProject
@@ -40,6 +40,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{93BFE028-4A80-4D45-84B7-CE5E6BC20EFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf", "protobuf\protobuf.csproj", "{C81018A7-2C31-4481-87FB-9FF59F8C73F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsocketWithProtobuf", "WebsocketWithProtobuf\WebsocketWithProtobuf.csproj", "{C5244268-282C-4862-8599-A3A0E7634858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormat", "ConsoleFormat\StringFormat.csproj", "{E7CAEAA4-7058-4C51-9CEF-995F14C1CEB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C81018A7-2C31-4481-87FB-9FF59F8C73F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5244268-282C-4862-8599-A3A0E7634858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5244268-282C-4862-8599-A3A0E7634858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5244268-282C-4862-8599-A3A0E7634858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5244268-282C-4862-8599-A3A0E7634858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CAEAA4-7058-4C51-9CEF-995F14C1CEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CAEAA4-7058-4C51-9CEF-995F14C1CEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CAEAA4-7058-4C51-9CEF-995F14C1CEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CAEAA4-7058-4C51-9CEF-995F14C1CEB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
