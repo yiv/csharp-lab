@@ -12,8 +12,12 @@ namespace time
     {
         static void Main(string[] args)
         {
-            Timer();
+            TimeFormat();
             Console.ReadKey();
+        }
+        public static void TimeFormat() {
+            var time = DateTime.Now;
+            Console.WriteLine("{0:yyyy-MM-dd HH:mm:ss.fff}", time);
         }
         public static void UnixTimeNow()
         {
