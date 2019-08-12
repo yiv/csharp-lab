@@ -12,7 +12,7 @@ namespace lambda
         delegate void print(string i);
         static void Main(string[] args)
         {
-            Test2();
+            Test3();
             Console.ReadKey();
         }
         public static void Test1() { 
@@ -28,6 +28,14 @@ namespace lambda
                 Console.WriteLine(s);
             };
             myfun("heheh");
+        }
+        public static void Test3()
+        {
+            Action<int, string> too = (int x, string s) => {
+                Console.WriteLine(x);
+                Console.WriteLine(s);
+            };
+            too(500, "hek");
         }
     }
 }

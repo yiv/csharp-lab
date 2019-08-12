@@ -11,14 +11,27 @@ namespace AsyncAwait
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Main start");
-            Task<string> t = GetData();
-            Console.WriteLine("Main after async call");
-            t.Wait();
-            string result = t.Result;
-            Console.WriteLine("Main end; result: " + result);
-            Console.ReadKey();
+            UseAsync();
+
         }
+
+        static void UseAsync() {
+
+            DoWork();
+            Worker("main");
+        }
+
+        static async void DoWork() {
+            await Worker("asnyc");
+        }
+        static void Worker(string name) {
+            for (var x = 0; x < 5; x++)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("{2} thread {0} print {1}", Thread.CurrentThread.ManagedThreadId, x, name);
+            }
+        }
+
         static async Task<string> GetData()
         {
             Console.WriteLine("Before long operation");

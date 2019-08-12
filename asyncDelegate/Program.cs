@@ -12,7 +12,7 @@ namespace asyncDelegate
         private static bool isDone = false;
         static void Main(string[] args)
         {
-            Test4();   
+            Test1();   
             Console.ReadKey();
         }
         static int Add(int x, int y)

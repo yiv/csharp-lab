@@ -5,15 +5,42 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace http
 {
+    class LoginReq
+    {
+        [JsonProperty("account_type")]
+        public int AccountType { get; set; }
+        [JsonProperty("data")]
+        public Dictionary<string, string> Data { get; set; }
+    }
     class Program
     {
         static async Task Main(string[] args)
         {
-            await SendHttpRequestRC4();
+            PostJson();
             Console.ReadKey();
+        }
+
+        static async void PostJson() {
+            var data = new Dictionary<string, string>();
+            data.Add("did", "aaaaaaaa");
+            var loginReq = new LoginReq
+            {
+                AccountType = 1,
+                Data = data,
+            };
+            var url = "http://45.32.39.136:10000/user/login";
+            var str = JsonConvert.SerializeObject(loginReq);
+            var content = new StringContent(str, Encoding.UTF8, "application/json");
+            var httpCli = new HttpClient();
+            var result = httpCli.PostAsync(url, content).Result;
+            Console.WriteLine(result.StatusCode);
+            Console.WriteLine((int)result.StatusCode);
+            Console.WriteLine(result.Content.ReadAsStringAsync().Result);
         }
         static async Task Get()
         {
